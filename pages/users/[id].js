@@ -89,7 +89,6 @@ const EditUser = () => {
             />
             <CrudTextField
               formik={true}
-              type="email"
               id="email"
               name="email"
               label="Email"

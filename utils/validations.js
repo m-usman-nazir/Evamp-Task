@@ -14,7 +14,7 @@ export const userValidation = yup.object({
     .string("Please Enter your Phone number")
     // .matches(phoneRegExp, "Enter valid phone number")
     // .typeError("That doesn't look like a phone number")
-    .min(7, "Password should be of minimum 11 characters length")
-    .max(11, "Password should be of maximum 11 characters length")
+    .min(7, "Phone number should be of minimum 11 characters length")
+    .max(11, "Phone number should be of maximum 11 characters length")
     .required("A phone number is required"),
 });
