@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.7.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/material": "^5.8.3",
+    "@mui/styles": "^5.8.3",
+    "@mui/system": "^5.8.3",
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
+    "formik": "^2.2.9",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
+    "react-toastify": "^9.0.4",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "eslint": "8.17.0",
